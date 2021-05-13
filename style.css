@@ -58,12 +58,13 @@ h2 { /* Centers my headers in each section. */
   text-align: center;
 }
 
-a:hover {color: orange;}
-a:active {color: green;}
+div a:link {color: white;}
+div a:visited {color:#03045e;}
+div a:hover {color: orange;}
+div a:active {color: green;}
 
 .buttons { /* Makes the buttons for my links. */
   background-color: #0077b6;
-  color:white;
   border: none;
   padding: 20px 20px;
   text-align: center;
