@@ -36,7 +36,7 @@ p { /* Font and font size for the paragraghs. */
   font-size: 16px;
 }
 
-.myImage { /* Positions and sets up the border around my picture. */
+#myImage { /* Positions and sets up the border around my picture. */
   float: right;
   padding: 1px;
   border: 5px solid #03045e;
@@ -58,14 +58,13 @@ h2 { /* Centers my headers in each section. */
   text-align: center;
 }
 
-div a:link {color: white;}
-div a:visited {color:#03045e;}
-div a:hover {color: orange;}
-div a:active {color: green;}
+a:link {color: white;}
+a:visited {color: red;}
+a:hover {color: orange;}
+a:active {color: green;}
 
 .buttons { /* Makes the buttons for my links. */
   background-color: #0077b6;
-  border: none;
   padding: 20px 20px;
   text-align: center;
   text-decoration: none;
@@ -74,7 +73,7 @@ div a:active {color: green;}
   border-radius: 50%;
 }
 
-#list { /* sets font and size for the lists. */
+.list { /* sets font and size for the lists. */
   font-family: Arial, sans-serif;
   font-size: 16px;
 }
