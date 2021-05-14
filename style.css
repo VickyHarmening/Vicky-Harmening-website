@@ -85,4 +85,4 @@ article { /* sets the height and margins for the welcome article */
 a {color:white;}
 a:visited {color: red;}
 a:hover {color: orange;}
-a:activate {color: green;}
+a:active {color: green;}
