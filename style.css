@@ -58,7 +58,7 @@ h2 { /* Centers my headers in each section. */
   text-align: center;
 }
 
-.buttons:link { /* Makes the buttons for my links and makes the text white. */
+.buttons { /* Makes the buttons for my links and makes the text white. */
   background-color: #0077b6;
   color: white;
   padding: 20px 20px;
@@ -69,34 +69,16 @@ h2 { /* Centers my headers in each section. */
   border-radius: 50%;
 }
 
-.buttons:visited { /* Makes the buttons for my links and changes the text to orange when the button has been visited. */
-  background-color: #0077b6;
+a:visited { /* Makes the buttons for my links and changes the text to orange when the button has been visited. */
   color: orange;
-  padding: 20px 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  border-radius: 50%;
 }
 
-.buttons:hover { /* Makes the buttons for my links and colors the text red when hovering over it. */
-  background-color: #0077b6;
-  color: red;
-  padding: 20px 20px;
-  text-align: center;
-  text-decoration: none;
+a:hover { /* Makes the buttons for my links and colors the text red when hovering over it. */
+  color:red;
 }
 
-.buttons:active { /* Makes the buttons for my links and makes the text purple when the button is being clicked on. */
-  background-color: #0077b6;
-  color: purple;
-  padding: 20px 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  border-radius: 50%;
+a:active { /* Makes the text purple when the button is being clicked on. */
+color: purple;
 }
 
 .list { /* sets font and size for the lists. */
