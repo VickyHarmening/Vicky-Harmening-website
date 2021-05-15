@@ -58,8 +58,39 @@ h2 { /* Centers my headers in each section. */
   text-align: center;
 }
 
-.buttons { /* Makes the buttons for my links. */
+.buttons:link { /* Makes the buttons for my links and makes the text white. */
   background-color: #0077b6;
+  color: white;
+  padding: 20px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 50%;
+}
+
+.buttons:visited { /* Makes the buttons for my links and changes the text to orange when the button has been visited. */
+  background-color: #0077b6;
+  color: orange;
+  padding: 20px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 50%;
+}
+
+.buttons:hover { /* Makes the buttons for my links and colors the text red when hovering over it. */
+  background-color: #0077b6;
+  color: red;
+  padding: 20px 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.buttons:active { /* Makes the buttons for my links and makes the text purple when the button is being clicked on. */
+  background-color: #0077b6;
+  color: purple;
   padding: 20px 20px;
   text-align: center;
   text-decoration: none;
@@ -82,7 +113,4 @@ article { /* sets the height and margins for the welcome article */
   margin: 0 auto;
 }
 
-a {color:white;}
-a:visited {color: red;}
-a:hover {color: orange;}
-a:active {color: green;}
+
